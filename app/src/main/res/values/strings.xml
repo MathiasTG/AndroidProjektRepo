@@ -1,6 +1,9 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <string name="saldo">Saldo</string>
-    <string name="indkomst">Indtast Indkomst</string>
-    <string name="udgift">Indtast Udgift</string>
+    <string name="app_name">Fucking BudgetApp</string>
+    <string name="saldo">Saldo:</string>
+    <string name="income">Indtast Indkomst</string>
+    <string name="expense">Indtast Udgift</string>
+    <string name="descriptionHint">Beskrivelse</string>
+    <string name="amountHint">Beløb</string>
+    <string name="submit">Færdig</string>
 </resources>
