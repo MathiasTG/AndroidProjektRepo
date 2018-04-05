@@ -1,10 +1,9 @@
 <resources>
     <string name="app_name">Fucking BudgetApp</string>
     <string name="saldo">Saldo:</string>
-    <string name="indkomst">Indtast Indkomst</string>
-    <string name="udgift">Indtast Udgift</string>
-    <string name="beskrivelsePlaceholder">Beskrivelse</string>
-    <string name="amountPlaceholder">Beløb</string>
-    <string name="videre">Videre</string>
-    <string name="hintmultiautocompleteincome">Labels</string>
+    <string name="income">Indtast Indkomst</string>
+    <string name="expense">Indtast Udgift</string>
+    <string name="descriptionHint">Beskrivelse</string>
+    <string name="amountHint">Beløb</string>
+    <string name="submit">Færdig</string>
 </resources>
