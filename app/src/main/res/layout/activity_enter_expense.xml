@@ -30,10 +30,11 @@
                     android:id="@+id/expensedescription"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:maxLength="30"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="20dp"
-                    android:hint="@string/descriptionHint">
+                    android:hint="@string/descriptionHint"
+                    android:inputType="text"
+                    android:maxLength="30">
 
                 </EditText>
 
@@ -74,7 +75,7 @@
 
                 <Button
                     android:id="@+id/expensesubmit"
-                    style="@style/Widget.AppCompat.Button"
+                    style="@style/ButtonStyle"
                     android:layout_width="match_parent"
                     android:layout_height="68dp"
                     android:layout_marginBottom="16dp"
@@ -82,7 +83,7 @@
                     android:layout_marginStart="16dp"
                     android:layout_span="2"
                     android:text="@string/submit"
-                    android:textSize="34sp"/>
+                    android:textSize="34sp" />
             </TableRow>
         </TableLayout>
 
