@@ -22,5 +22,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, EnterExpense.class);
         startActivity(intent);
     }
+    public void onBalanceClick(View view){
+        Intent intent = new Intent(this, AccountActivity.class);
+        startActivity(intent);
+    }
 
 }
